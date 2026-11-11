@@ -76,7 +76,7 @@ python -m pip install pandas numpy scipy matplotlib openpyxl
 Execute a partir da pasta que contém `pecas.xlsx`:
 
 ```bash
-python Computacao_V14.1.py
+python Producao.py
 ```
 
 Também é possível executar como módulo:
@@ -101,13 +101,13 @@ Exemplo de execução rápida de uma rodada, sem cenários adicionais de frota e
 turno:
 
 ```bash
-python Computacao_V14.1.py --rodadas 1 --sem-frota
+python Producao.py --rodadas 1 --sem-frota
 ```
 
 Para consultar todas as opções:
 
 ```bash
-python Computacao_V14.1.py --help
+python Producao.py --help
 ```
 
 ## Resultados de uma execução
@@ -115,7 +115,7 @@ python Computacao_V14.1.py --help
 Execução de referência feita com Python 3.13.9 e o comando:
 
 ```bash
-python Computacao_V14.1.py --rodadas 1 --sem-frota
+python Producao.py --rodadas 1 --sem-frota
 ```
 
 Foram simuladas 1.000 ordens, com média de 20 ordens por dia e uma frota inicial
